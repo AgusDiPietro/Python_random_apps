@@ -20,3 +20,10 @@ print("The element " + str(num_floats[0]) + " is a " + str(type(num_floats[0])) 
 print("\nThe variable num_lists is a " + str(type(num_lists)) + ".");
 print("It contain the elements: " + str(num_lists));
 print("The element " + str(num_lists[0]) + " is a " + str(type(num_lists[0])) + ".");
+
+#Sorting the lists
+num_strings.sort();
+num_inits.sort();
+num_lists.sort();
+num_floats.sort();
+
