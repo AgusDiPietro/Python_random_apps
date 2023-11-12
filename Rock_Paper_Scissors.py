@@ -18,5 +18,15 @@ for game_round in range(rounds):
     #Get the computers move
     c_index = random.randint(0,2)
     c_choise = moves[c_index]
+
+    #Get the players move
+    p_choice = input('Time to pick one...rock, papers or scissors: ').lower().strip()
+
+    #If the player makes a valid move
+    if p_choice in moves:
+        print(' Computer: ' + c_choise)
+        print(' Player: ' + p_choice)
+
+
     
 
